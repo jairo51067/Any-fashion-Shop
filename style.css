@@ -60,10 +60,10 @@
 
   color: #ffffff;
   text-align: center;
-
-  background-image: url(/images/hero2.jpg);
-  background-size: cover;
+  
   /* background-color: var(--background-llamada-mobile); */
+  background-image: url(images/hero2.jpg);
+  background-size: cover;
 
   padding-top: 13.25rem;
   padding-bottom: 3.5rem;
@@ -85,7 +85,6 @@
   line-height: 1.15;
   text-align: center;
   margin: 0 auto 2.5rem;
-  /* background-color: var(--background-ceniza-claro); */
 }
 
 .llamada__boton {
@@ -127,6 +126,7 @@
   transform: translateY(-3px) scale(1.05);
   /* box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.3); */
 }
+
 
 /* ====== Collection Productos ====== */
 .productos {
@@ -213,8 +213,9 @@
 .buy:hover {
   transform: scale(1.01) translateY(-0.75px);
 }
-/* ======= CONTACTO ======*/
 
+
+/* ======= CONTACTO ======*/
 .contacto {
   display: flex;
   flex-direction: column;
@@ -297,10 +298,6 @@
   display: block;
 }
 
-/* .institucional_mapa {
-  width: 100vw;
-} */
-
 @media screen and (min-width: 768px) {
   .institucional__contacto-email {
     display: inline-block;
@@ -358,17 +355,9 @@
 }
 
 .footer__social li:hover {
-  /* border-bottom: 1px solid #fff; */
   transform: scale(1.05) translateY(-0.2em);
   color: var(--background-ceniza-claro);
 }
-
-/* .footer__midia {
-  display: block;
-  width: 42px;
-  height: 42px;
-  margin: 2rem 1rem;
-} */
 
 .footer__navegacion {
   color: var(--background-blanco);

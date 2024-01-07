@@ -52,15 +52,12 @@ html {
 body {
   font-family: var(--open-sans);
   background-color: var(--background-ceniza-claro);
-  /* background-color: #f7f4f4a2; */
-
 }
 
 .container {
   padding: 65px 0;
   padding-right: 6%;
   padding-left: 6%;
-
 }
 
 .boton {
@@ -84,16 +81,6 @@ body {
   }
 } 
 
-/* @media only screen and (max-width: 770px) {
- 
-
- 
-} */
-
-/* 
-@media only screen and (max-width: 390px) {
- 
-} */
 
 @media screen and (min-width: 390px) {
   .browser_list ul li a{
@@ -104,14 +91,5 @@ body {
 
   }
   
-  /* .llamada {
-      background-image: url(/images/hero2.jpg);
-      background-size: cover;
-      padding-top: 8.25rem;
-  } */
 
-  .llamada__titulo {
-      font-size: 3.25rem;
-      margin-bottom: 2rem;
-  }
 }
