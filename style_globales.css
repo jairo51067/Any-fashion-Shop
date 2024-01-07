@@ -104,11 +104,11 @@ body {
 
   }
   
-  .llamada {
+  /* .llamada {
       background-image: url(/images/hero2.jpg);
       background-size: cover;
-      /* padding-top: 8.25rem; */
-  }
+      padding-top: 8.25rem;
+  } */
 
   .llamada__titulo {
       font-size: 3.25rem;

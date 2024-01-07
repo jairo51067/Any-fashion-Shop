@@ -61,7 +61,9 @@
   color: #ffffff;
   text-align: center;
 
-  background-color: var(--background-llamada-mobile);
+  background-image: url(/images/hero2.jpg);
+  background-size: cover;
+  /* background-color: var(--background-llamada-mobile); */
 
   padding-top: 13.25rem;
   padding-bottom: 3.5rem;
