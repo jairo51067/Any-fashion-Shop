@@ -72,8 +72,6 @@ body {
 }
 
 
-
-
 @media screen and (min-width: 1024px) {
   .container {
       padding-left: calc((100% - 940px)/2);
@@ -82,14 +80,6 @@ body {
 } 
 
 
-@media screen and (min-width: 390px) {
-  .browser_list ul li a{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.25rem;
 
-  }
-  
 
-}
+
