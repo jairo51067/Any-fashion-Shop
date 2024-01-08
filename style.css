@@ -60,7 +60,7 @@
 
   color: #ffffff;
   text-align: center;
-  
+
   /* background-color: var(--background-llamada-mobile); */
   background-image: url(images/hero2.jpg);
   background-size: cover;
@@ -71,12 +71,12 @@
 
 .llamada__titulo {
   font-family: var(--montserrat);
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
 
-  margin-bottom: 1rem;
-  
+  margin-bottom: 1.5rem;
+  /*width: 17.75rem;*/
   color: #000;
 }
 
@@ -91,12 +91,18 @@
   color: var(--white-color);
   font-size: 1rem;
   border-color: var(--white-color);
-  
 }
 
 .llamada__boton:hover {
   transform: scale(1.1);
   border: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .llamada__titulo {
+    font-size: 3.25rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /* ======= browser_list ======= */
@@ -128,15 +134,13 @@
 }
 
 @media screen and (min-width: 390px) {
-  .browser_list ul li a{
+  .browser_list ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.25rem;
-
   }
 }
-
 
 /* ====== Collection Productos ====== */
 .productos {
@@ -219,13 +223,12 @@
   background: var(--background-blanco);
   color: var(--color);
   border: 0.5px solid #464646;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .buy:hover {
   transform: scale(1.01) translateY(-0.75px);
 }
-
 
 /* ======= CONTACTO ======*/
 .contacto {
@@ -283,10 +286,10 @@
 }
 
 .institucional__descripcion {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
-.institucional_mapa{
+.institucional_mapa {
   text-align: end;
 }
 
@@ -314,10 +317,9 @@
 }
 
 @media screen and (max-width: 390px) {
-  .institucional_mapa{
+  .institucional_mapa {
     display: none;
   }
-  
 }
 
 @media screen and (min-width: 768px) {
@@ -340,16 +342,23 @@
 }
 
 /*  ======= visitenos ====== */
-.invitacion{
-  padding-top: 30px;
-  padding-bottom: 30px;
- 
+.invitacion {
+  display: flex;
   flex-direction: row;
   align-items: center;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+
   
+  
+  
+  color: var(--fuente-ceniza-oscuro);
+  text-align: center;
+ 
 }
 
-.invitacion_informaciones{
+.invitacion_informaciones {
   margin-bottom: 130px;
   padding: 13px;
   text-align: start;
@@ -366,7 +375,7 @@
 }
 
 .invitacion__descripcion {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .invitacion__horario {
@@ -375,49 +384,33 @@
   margin-bottom: 2rem;
 }
 
-.invitacion__imagen{
-  margin: 0;
-  padding: 0;
- 
+.invitacion__imagen {
 }
 
-@media screen and (min-width: 1024px){
-  .invitacion{
-    flex-direction: column;
-  }
-
-  .invitacion__imagen{
-    display: flex;
-    justify-content: center;
-    
-  }
-
-  .invitacion__imagen img{
-    width: 80%;
-  }
-
-}
-
-@media screen and (min-width: 390px){
-  .invitacion{
+@media screen and (max-width: 768px) {
+  .invitacion {
     flex-direction: column;
   }
 
   .invitacion_informaciones, .invitacion__titulo{
-    margin: 7px;
+    width: 100%;
     text-align: center;
+    padding: 10px;
+    margin: 0;
   }
 
-  .invitacion__imagen{
-    display: flex;
-    justify-content: center;
-    
+  .invitacion__imagen img {
+    width: 500px;
   }
 
-  .invitacion__imagen img{
-    width: 80%;
-  }
+  
+}
 
+@media screen and (max-width: 390px) {
+
+  .invitacion__imagen img {
+    width: 280px;
+  }
 }
 
 /* ======= footer ======= */
