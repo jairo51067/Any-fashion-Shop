@@ -105,6 +105,12 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .llamada__titulo {
+    margin-top: 30px;
+  }
+}
+
 /* ======= browser_list ======= */
 .browser_list ul {
   list-style-type: none;
