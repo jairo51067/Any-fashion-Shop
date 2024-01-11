@@ -3,7 +3,7 @@
   color: #ffffff;
   width: 100%;
   box-sizing: border-box;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   padding-top: 0.75rem;
@@ -12,44 +12,160 @@
   position: absolute;
 }
 
-.head__logo {
+/* .head__logo {
   margin-bottom: 1rem;
-}
+} */
 
-.head__logo:hover {
+/* .head__logo:hover {
   transform: scale(1.1);
-}
+} */
 
-.head__navegacion {
+/* .head__navegacion {
+  display: inline-block;
   text-align: center;
-}
+} */
 
-.head__enlace {
+/* .head__enlace {
   font-size: 1.1rem;
   display: inline-block;
   margin-right: 0.7rem;
   margin-bottom: 0.7rem;
   margin-left: 0.7rem;
-}
+} */
 
-.head__enlace:hover {
+/* .head__enlace:hover {
   border-bottom: 1px solid #000;
   transform: scale(1.1) translateY(-3px);
-}
+} */
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .navbar {
     flex-direction: row;
     justify-content: space-between;
     border: none;
   }
-}
+} */
 
-@media screen and (max-width: 390px) {
+/* @media screen and (max-width: 390px) {
   .head__enlace {
     margin: 0;
     padding: 3px;
   }
+} */
+
+/*==============*/
+
+.head__enlace {
+  position: absolute;
+  padding: 20px 0px;
+}
+
+.head__logo {
+  width: 205px;
+}
+
+.head__navegacion ul {
+  float: right;
+  margin-right: 0px;
+}
+
+.head__navegacion ul li {
+  display: inline-block;
+  line-height: 100px;
+  margin: 0 5px;
+}
+
+.head__navegacion ul li a {
+  color: aliceblue;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.head__navegacion li a.active,
+.head__navegacion li a:hover {
+  background: #000;
+  transition: 0.5s;
+}
+
+.checkbtn {
+  background-color: #333333;
+  font-size: 33px;
+  color: #fff;
+  float: right;
+  line-height: 40px;
+  /* margin-right: 30px; */
+  margin-top: 25px;
+  padding: 11px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/* section{
+  background: url(hero_2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: calc(100vh - 100px);
+} */
+
+@media screen and (max-width: 768px) {
+  .head__navegacion ul li {
+    font-size: 16px;
+    margin: 0;
+    line-height: 120px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .checkbtn {
+    display: block;
+  }
+
+  .head__navegacion ul {
+    position: relative;
+    width: 100%;
+    /* height: 45vh; */
+    background-color: #333333;
+    top: 8px;
+    left: -110%;
+    text-align: start;
+    transition: all 0.5s;
+  }
+
+  .head__navegacion ul li {
+    display: block;
+    margin: 20px 0;
+    line-height: 50px;
+  }
+
+  .head__navegacion ul li a {
+    margin: 0 auto;
+   width: 100%;
+    font-size: 16px;
+  }
+
+  .head__navegacion li:hover{
+    background-color: #ffffff;
+  }
+
+  .head__navegacion li a:hover,
+  .head__navegacion li a.active {
+    background: none;
+    background-color: #ffffff;
+    color: #333333;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+
+
 }
 
 /* ======= Llamada Descripcion ======= */
@@ -81,7 +197,7 @@
 }
 
 .llamada__texto {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 1;
   text-align: center;
   margin: 0 auto 2.5rem;
@@ -236,24 +352,19 @@
   transform: scale(1.01) translateY(-0.75px);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .caja img {
     width: 300px;
     height: 280px;
-   
   }
 }
 
-
-
-@media screen and (max-width: 370px){
+@media screen and (max-width: 370px) {
   .caja img {
     width: 320px;
     height: 280px;
-   
   }
 }
-
 
 /* ======= CONTACTO ======*/
 .contacto {
@@ -411,7 +522,8 @@
     flex-direction: column;
   }
 
-  .invitacion_informaciones, .invitacion__titulo{
+  .invitacion_informaciones,
+  .invitacion__titulo {
     width: 100%;
     text-align: center;
     padding: 10px;
@@ -420,7 +532,7 @@
 
   .invitacion__imagen img {
     width: 500px;
-  } 
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -487,6 +599,8 @@
 }
 
 .footer p {
+  text-align: center;
+  line-height: 20px;
   width: 100%;
   border-top: 1px solid #fff;
   padding: 13px;
@@ -509,7 +623,9 @@
 }
 
 @media screen and (max-width: 390px) {
-  .footer__enlace {
-    padding: 0;
+  .footer__enlace{
+    margin: 0;
+    padding: 8px;
   }
+ 
 }

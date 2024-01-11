@@ -21,13 +21,22 @@
     <!-- ====== Header ====== -->
     <header class="navbar container" id="miInicio">
         <!-- ====== Navigation ====== -->
-        <img class="head__logo" src="./images/logofashion.png" alt="logo de fashion" width="205">
+      
         <nav class="head__navegacion">
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <a href="#" class="head__enlace"><img class="head__logo" src="./images/logofashion.png" alt="logo de fashion"></a>
+            
+
             <ul>
-                <li class="head__enlace"><a href="#">Inicio</a></li>
-                <li class="head__enlace"><a href="#miVisitame">Horario</a></li>
-                <li class="head__enlace"><a href="#miContacto">Contacto</a></li>
-                <li class="head__enlace"><a href="#miUbicacion">Ubicacion</a></li>
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="#miVisitame">Horario</a></li>
+                <li><a href="#miContacto">Contacto</a></li>
+                <li><a href="#miUbicacion">Ubicacion</a></li>
             </ul>
         </nav>
 
@@ -173,7 +182,7 @@
 
         <!-- ======= footer ======== -->
         <footer class="footer container">
-            <img class="footer_logo" src="./images/logofashion.png" alt="logo de fashion" width="170">
+            <a href="#"><img class="footer_logo" src="./images/logofashion.png" alt="logo de fashion" width="170"></a>
 
             <ul class="footer__social">
                 <li>
@@ -191,7 +200,7 @@
 
             </ul>
 
-            <nav>
+            <nav class="footer__nav">
                 <ul class="footer__navegacion">
                     <li class="footer__enlace"><a href="#miInicio">Inicio</a></li>
                     <li class="footer__enlace"><a href="#miHistoria">Fashion</a></li>
@@ -200,7 +209,7 @@
                 </ul>
             </nav>
 
-            <p>Calle libertad, Av. Principal Edif. Leon Local #0 <br><br>Capacho, Estado Tachira Venezuela</p>
+            <p>Calle libertad, Av. Principal Edif. Leon Local #0 Capacho, Estado Tachira Venezuela</p>
         </footer>
     </main>
 </body>
