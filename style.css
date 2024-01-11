@@ -453,9 +453,10 @@
 }
 
 @media screen and (max-width: 390px) {
-  .institucional_mapa {
-    display: none;
-  }
+  .institucional_mapa iframe {
+    display: block;
+    width: 320px;
+   }  
 }
 
 @media screen and (min-width: 768px) {
