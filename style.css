@@ -123,13 +123,13 @@
 
 /* ======= Llamada Descripcion ======= */
 .llamada {
+  background-image: url(hero2.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #ffffff;
   text-align: center;
-  background-image: url(/hero2.jpg);
-  background-size: cover;
   padding-top: 8.25rem;
   padding-bottom: 3.5rem;
 }
@@ -563,4 +563,3 @@
     padding: 8px;
   }
 }
-
