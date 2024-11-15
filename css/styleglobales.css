@@ -44,10 +44,6 @@
   --open-sans: 'Opens sans', sans-serif;
 }
 
-/* 
-html {
-  font-size: 62.5%;
-} */
 
 body {
   font-family: var(--open-sans);
@@ -55,9 +51,9 @@ body {
 }
 
 .container {
-  padding: 65px 0;
-  padding-right: 6%;
-  padding-left: 6%;
+  padding: 1.5% 0;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
 }
 
 .boton {
@@ -72,12 +68,12 @@ body {
 }
 
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .container {
-      padding-left: calc((100% - 940px)/2);
-      padding-right: calc((100% - 940px)/2);
+      padding-left: calc((100% - 1000px)/2);
+      padding-right: calc((100% - 1000px)/2);
   }
-} 
+}  */
 
 
 
