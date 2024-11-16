@@ -1,8 +1,8 @@
 # Fashion Shop
-[Enlace al proyecto]([URL del proyecto](https://jairo51067.github.io/Any-fashion-Shop/)) 
+Visite Fashion Shop: https://jairo51067.github.io/Any-fashion-Shop/ 
 
-![Imagen del proyecto](![Any fashion](https://github.com/user-attachments/assets/9752fb6e-db18-4095-b7e1-7a0dbbf56aaf)
-) 
+![Any fashion](https://github.com/user-attachments/assets/c25f001a-6428-4d66-b10c-d57fa2675fb9)  
+
 
 ## Descripción
 Fashion Shop es una tienda en línea que ofrece una variedad de ropa deportiva y casual para todas las edades y ocasiones. Este proyecto fue desarrollado con el propósito de mostrar mis habilidades en desarrollo web front-end y proporcionar una experiencia de usuario atractiva y funcional.
