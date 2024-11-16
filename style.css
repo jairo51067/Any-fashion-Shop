@@ -123,7 +123,7 @@
 
 /* ======= Llamada Descripcion ======= */
 .llamada {
-  background-image: url(hero2.jpg);
+  background-image: url(https://thumbnails.yayimages.com/11/6be/116be136.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -490,7 +490,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--background-footer);
+  /* background-color: var(--background-footer); */
+  background-color: #ee436d;
   padding-top: 2.5rem;
   padding-bottom: 2rem;
 }
